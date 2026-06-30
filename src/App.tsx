@@ -84,7 +84,7 @@ function App() {
         ))}
         {isLoading && (
           <div className="message-item ai-message">
-            <div className="bubble">正在回复...</div>
+            <div className="bubble">思考中...</div>
           </div>
         )}
         <div ref={messagesEndRef} />
